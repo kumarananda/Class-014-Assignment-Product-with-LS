@@ -77,7 +77,7 @@ function allProducts() {
 
     productLS.map(pdata => {
         data += `
-        <div class="col-md-4 my-3">
+        <div class="col-lg-3 my-3">
             <div class="card">
                 <img class="card-image" src="${pdata.photo}" alt="">
                 <div class="card-body">
